@@ -68,3 +68,19 @@ a:hover {
 .first .nav a {
   padding: 8px;
 }
+
+.second {
+  flex-direction: row;
+}
+
+.iphone-demo {
+  background-color: rgba(255,0,0,0.3);
+  flex-grow: 1;
+  align-self: stretch;
+}
+
+.feature-description {
+  background-color: rgba(0,255,0,0.3);
+  flex-grow: 1;
+  align-self: stretch;
+}
