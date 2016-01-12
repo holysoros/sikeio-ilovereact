@@ -48,3 +48,12 @@ a:hover {
   color: #DADADA;
   text-decoration: none;
 }
+
+.section {
+  height: 100vh;
+}
+
+.section {
+  background-color: rgba(255,0,0,0.3);
+  border: 2px solid #FFF;
+}
