@@ -58,3 +58,13 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
+
+.first .nav {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.first .nav a {
+  padding: 8px;
+}
