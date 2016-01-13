@@ -99,3 +99,14 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+
+.inline-wrap {
+  display: block;
+}
+
+.demo-img {
+  position: absolute;
+  top: 90px;
+  left: 25px;
+  width: 250px;
+}
