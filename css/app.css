@@ -98,6 +98,7 @@ a:hover {
 .fourth {
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .inline-wrap {
@@ -109,4 +110,11 @@ a:hover {
   top: 90px;
   left: 25px;
   width: 250px;
+}
+
+#android-robot {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  transform: translate(-50%, -50%) rotate(-45deg);
 }

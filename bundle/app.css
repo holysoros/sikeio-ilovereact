@@ -598,6 +598,7 @@ a:hover {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
 }
 
 .inline-wrap {
@@ -609,4 +610,12 @@ a:hover {
   top: 90px;
   left: 25px;
   width: 250px;
+}
+
+#android-robot {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+          transform: translate(-50%, -50%) rotate(-45deg);
 }
