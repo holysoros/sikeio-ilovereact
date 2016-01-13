@@ -94,3 +94,8 @@ a:hover {
 .third {
   flex-direction: row;
 }
+
+.fourth {
+  justify-content: center;
+  align-items: center;
+}
