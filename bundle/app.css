@@ -647,3 +647,13 @@ a:hover {
 #slider-control .active .dot {
   background-color: #fff;
 }
+
+.first .overlay {
+  position: absolute;
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0), rgba(31,30,52,1));
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(31,30,52,1));
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
