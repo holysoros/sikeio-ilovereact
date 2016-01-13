@@ -529,6 +529,12 @@ a:hover {
   padding: 8px;
 }
 
+.first {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .second {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -538,7 +544,6 @@ a:hover {
 }
 
 .iphone-demo {
-  background-color: rgba(255,0,0,0.3);
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
@@ -560,7 +565,6 @@ a:hover {
 }
 
 .feature-description {
-  background-color: rgba(0,255,0,0.3);
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;

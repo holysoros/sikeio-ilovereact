@@ -69,12 +69,17 @@ a:hover {
   padding: 8px;
 }
 
+.first {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .second {
   flex-direction: row;
 }
 
 .iphone-demo {
-  background-color: rgba(255,0,0,0.3);
   flex-grow: 1;
   align-self: stretch;
   flex-basis: 0;
@@ -83,7 +88,6 @@ a:hover {
 }
 
 .feature-description {
-  background-color: rgba(0,255,0,0.3);
   flex-grow: 1;
   align-self: stretch;
   flex-basis: 0;
