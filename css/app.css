@@ -77,10 +77,20 @@ a:hover {
   background-color: rgba(255,0,0,0.3);
   flex-grow: 1;
   align-self: stretch;
+  flex-basis: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .feature-description {
   background-color: rgba(0,255,0,0.3);
   flex-grow: 1;
   align-self: stretch;
+  flex-basis: 0;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.third {
+  flex-direction: row;
 }
